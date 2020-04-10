@@ -1,0 +1,68 @@
+body{
+    background-color: #252525;
+}
+
+.container-fluid{
+    padding: 0%;
+}
+
+.header-container{
+    background-image: url('./assets/resources/013401650b86404208db79c551d4348a');
+    padding: 1%;
+}
+.navbar{
+    /* background-color: #252525; */
+    background-color:rgba(0, 0, 0, 0);
+    
+}
+.navbar a{
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.carousel{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-item, .indicators {
+    color: #ffffff;
+}
+
+/* .indicators{
+    position: absolute;
+bottom: -50px;
+
+} */
+.li-container{
+    border-right: 1px solid #ffffffab;
+    height: 26px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 10px;
+    /* color: #595a5c; */
+    /* opacity: .5; */
+}
+.carousel-indicators span {
+    margin-right: 20px;
+    display: table;
+    position: relative;
+    left: 514px;
+    bottom: 22px;
+    color: #ffffffab;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.vine-name-container{
+
+}
