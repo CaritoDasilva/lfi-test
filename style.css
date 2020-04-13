@@ -125,9 +125,11 @@ body, .card{
     justify-content: center;
     align-items: center;
 }
-.card-label, .card-link{
+.card-label, .card-link, .card-link-mail{
    color: #b66411;
-   font-size: 20px;
+}
+.card-link{
+    font-size: 20px;
 }
 .fa-arrow-right{
     margin-left: 0;
