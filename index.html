@@ -6,33 +6,37 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Vidaloka&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
     <title>Viña Felipe Morales</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="general-container container-fluid">
         <div class="header-container container-fluid">
             <div class="row">
-                <div class="col-md-2 offset-md-1 vine-name-container">
+                <div class="col-md-2 offset-md-1 col-lg-2 offset-lg-1 col-sm-2 offset-sm-1 col-3 offset-1 vine-name-container">
                     <img class="col-md-12" src="./assets/resources/4840520aefa76f2fe13e86b6736eda7e" alt="">
                 </div>
-                <div class="col-md-3 offset-md-6">
-                    <nav class="col-md-12 navbar">
-                        <a class="col-md-3 align-self-start navbar-brand" href="#">TIENDA</a>
-                        <a class="col-md-3 align-self-start navbar-brand" href="#"><span>0</span><i class="fas fa-shopping-bag"></i></a>
-                        <a class="col-md-3 align-self-start navbar-brand" href="#"><span>MENU</span><i class="fas fa-align-right"></i></a>
+                <div class="col-md-4 offset-md-4 col-lg-6 offset-lg-3 col-sm-6 offset-sm-3 col-8">
+                    <nav class="col-lg-10 col-md-10 col-sm-10 col-12 navbar">
+                        <a class="links-navbar col-lg-3 col-md-2 col-sm-3 col-2 align-self-start navbar-brand" href="#">TIENDA</a>
+                        <a class="links-navbar col-lg-3 col-md-2 col-sm-3 col-2 align-self-start navbar-brand" href="#"><span>0</span><i class="fas fa-shopping-bag"></i></a>
+                        <a class="links-navbar col-lg-3 col-md-2 col-sm-3 col-5 align-self-start navbar-brand" href="#"><span>MENU</span><i class="fas fa-align-right"></i></a>
                     </nav>
                 </div>
             </div>
             <div class="row align-items-center carousel-container">
-                <div id="carouselExampleIndicators" class="col-md-6 offset-md-3 align-self-center carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 align-self-center carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="indicators active"><span>01</span></li>
-                        <div class="li-container"></div>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicators"><span>02</span></li>
-                        <div class="li-container"></div>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicators"><span>03</span></li>
-                        <div class="li-container"></div>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="indicators active"><span>01</span>
+                            <div class="li-container"></div>
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicators"><span>02</span>
+                            <div class="li-container"></div>                        
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicators"><span>03</span>
+                            <div class="li-container"></div>
+                        </li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -53,11 +57,309 @@
                     </div>
                 </div>
             </div>
-
+            <div class="scroll-container">
+                <h6>scroll</h6>
+                <div class="scroll-bar"><span class="scroll-span"></span></div>
+            </div>
         </div>
+        <div class="section-two-container container-fluid">
+            <div class="col-lg-9 offset-lg-3 col-md-9 offset-md-3 img-container">
+                <img src="./assets/resources/73cc2cb38b6bdc5c61954804301ee3bc" alt="">
+            </div>
+            <div class="col-lg-6 col-md-8 card" style="width: 18rem;">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-1 col-md-8 offset-md-2 card-body">
+                  <label class="card-label" for="">VIÑA</label>
+                  <h5 class="card-title">F. Morales</h5>
+                  <p class="card-text">Nuestra viña recibe su nombre del Cacique
+                    Picunche Andetelmo, “Felipe Morales”, señor de
+                    las tierras que hoy albergan nuestro terroir, al pie
+                    de la Cordillera de los Andes, en el Valle de Alto
+                    Maipo. Su carácter visionario y pacifico le hizo
+                    ganar el respeto de los conquistadores españoles
+                    dando origen a una historia de apertura e
+                    intercambio que perdura hasta nuestros tiempos.
+                    Hoy, el espíritu de Andetelmo sigue vivo en
+                    nuestros vinos que expresan toda la nobleza y
+                    calidad de un terroir único.</p>
+                  <a href="#" class="card-link">Ver más <i class="fas fa-arrow-right"></i></a>
+                  <div class="opacity-frame">
+                    <img class="opacity-frame-img" src="./assets/resources/73cc2cb38b6bdc5c61954804301ee3bc" alt="">
 
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="section-three-container container-fluid">
+            <div>
+                <img class="bg-container-section-three" src="./assets/resources/ea91fed6453342fe2169af877486a2ca" alt="">
+            </div>
+            <h3 class="carousel-title">Reconocimientos</h3>
+            <div class="row align-items-center carousel-container carousel-two">
+                <div id="carouselExampleIndicators2" class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 align-self-center carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="indicators active"><span>01</span>
+                            <div class="li-container"></div>
+                        </li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1" class="indicators"><span>02</span>
+                            <div class="li-container"></div>                        
+                        </li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2" class="indicators"><span>03</span>
+                            <div class="li-container"></div>
+                        </li>
+                    </ol>
+                    <div class="carousel-inner inner-two">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col card carousel-cards">
+                                    <div class="card-body card-body-carousel">
+                                        <img class="bottle-img" src="./assets/resources/48c2e0e4e2483cb05842d47652834c40" alt="">
+                                        <div class="col-lg-10 col-md-10 text-info-card">
+                                            <img class="laurel-icon" src="./assets/resources/laurel.svg" alt="">
+                                            <h6 class="title-wine-card">F MORALES, CABERNET SAUVIGNON 2003</h6>
+                                            <h6 class="points-wine-card">98 Puntos</h6>
+                                            <h6 class="text-wine-card">James Suckling</h6>
+                                            <h6 class="text-wine-card">USA 2019</h6>
+
+                                        </div>        
+                                    </div>
+                                </div>
+                                <div class="col card carousel-cards">
+                                    <div class="card-body card-body-carousel">
+                                        <img class="bottle-img" src="./assets/resources/b6ac20bfe41250afcd1d7a026fb2e633" alt="">
+                                        <div class="col-lg-10 col-md-10 text-info-card">
+                                            <img class="laurel-icon" src="./assets/resources/laurel.svg" alt="">
+                                            <h6 class="title-wine-card">KIÑE, CHARDONNAY 2014</h6>
+                                            <h6 class="points-wine-card">98 Puntos</h6>
+                                            <h6 class="text-wine-card">James Suckling</h6>
+                                            <h6 class="text-wine-card">USA 2019</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col card carousel-cards">
+                                    <div class="card-body card-body-carousel">
+                                        <img class="bottle-img" src="./assets/resources/48c2e0e4e2483cb05842d47652834c40" alt="">
+                                        <div class="col-lg-10 col-md-10 text-info-card">
+                                            <img class="laurel-icon" src="./assets/resources/laurel.svg" alt="">
+                                            <h6 class="title-wine-card">F MORALES, CABERNET SAUVIGNON 2003</h6>
+                                            <h6 class="points-wine-card">95 Puntos</h6>
+                                            <h6 class="text-wine-card">James Suckling</h6>
+                                            <h6 class="text-wine-card">USA 2019</h6>
+
+                                        </div>        
+                                    </div>
+                                </div>
+                                <div class="col card carousel-cards">
+                                    <div class="card-body card-body-carousel">
+                                        <img class="bottle-img" src="./assets/resources/b6ac20bfe41250afcd1d7a026fb2e633" alt="">
+
+                                        <div class="col-lg-10 col-md-10 text-info-card">
+                                            <img class="laurel-icon" src="./assets/resources/laurel.svg" alt="">
+                                            <h6 class="title-wine-card">KIÑE, CHARDONNAY 2014</h6>
+                                            <h6 class="points-wine-card">98 Puntos</h6>
+                                            <h6 class="text-wine-card">James Suckling</h6>
+                                            <h6 class="text-wine-card">USA 2019</h6>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col card carousel-cards">
+                                    <div class="card-body card-body-carousel">
+                                        <img class="bottle-img" src="./assets/resources/48c2e0e4e2483cb05842d47652834c40" alt="">
+                                        <div class="col-lg-10 col-md-10 text-info-card">
+                                            <img class="laurel-icon" src="./assets/resources/laurel.svg" alt="">
+                                            <h6 class="title-wine-card">F MORALES, CABERNET SAUVIGNON 2003</h6>
+                                            <h6 class="points-wine-card">95 Puntos</h6>
+                                            <h6 class="text-wine-card">James Suckling</h6>
+                                            <h6 class="text-wine-card">USA 2019</h6>
+
+                                        </div>        
+                                    </div>
+                                </div>
+                                <div class="col card carousel-cards">
+                                    <div class="card-body card-body-carousel">
+                                        <img class="bottle-img" src="./assets/resources/b6ac20bfe41250afcd1d7a026fb2e633" alt="">
+
+                                        <div class="col-lg-10 col-md-10 text-info-card">
+                                            <img class="laurel-icon" src="./assets/resources/laurel.svg" alt="">
+                                            <h6 class="title-wine-card">KIÑE, CHARDONNAY 2014</h6>
+                                            <h6 class="points-wine-card">98 Puntos</h6>
+                                            <h6 class="text-wine-card">James Suckling</h6>
+                                            <h6 class="text-wine-card">USA 2019</h6>
+
+                                        </div>                                    
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-four-container container-fluid">
+            <img class="col-lg-6 offset-lg-6 col-md-6 offset-md-6 bg-one-section-four" src="./assets/resources/c8f655e953108dbb9d7df176bc2793de" alt="">
+            <h3 class="section-four-title">Nuestros vinos</h3>
+            <div class="col-lg-8 offset-lg-2 col-md-6 offset-md-3 wines-card-container">
+                <div data-aos="zoom-in" class="col-lg-8 col-md-10 col-sm-12 col-12 wines-card card-one">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 wines-card-bg-container">
+                        <img class="wines-card-bg" src="./assets/resources/0b7c16068c1aaa77483197a95b8c817b" alt="">
+                    </div>
+                    <div class="col-lg-8 offset-lg-4 col-md-8 offset-md-4 col-sm-8 offset-sm-4 col-8 offset-4 card-text wines-card-text">
+                        <h3 class="wines-card-text-title">DOÑA DOMINGA</h3>
+                        <p class="wines-card-text-paragraph">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit.
+                                Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis
+                                natoque penatibus et magnis dis</p>
+                        <a href="#" class="card-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" class="col-lg-4 col-md-4 col-sm-4 col-4 wines-card-bottle wines-card-bottle-left">
+                    <img class="wines-card-bottle-img" src="./assets/resources/48c2e0e4e2483cb05842d47652834c40" alt="">
+                </div>
+                <div data-aos="zoom-in" class="col-lg-8 offset-lg-5 col-md-10 offset-md-6 col-sm-12 col-12 wines-card card-two">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 wines-card-bg-container">
+                        <img class="wines-card-bg" src="./assets/resources/3e2a1ebc3afbe37624d644473689777c" alt="">
+                    </div>     
+                    <div class="col-lg-8 col-md-8 col-sm-8 offset-sm-1 col-8 offset-1 card-text wines-card-text">
+                        <h3 class="wines-card-text-title">MACALAIS</h3>
+                        <p class="wines-card-text-paragraph">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit.
+                                Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis
+                                natoque penatibus et magnis dis</p>
+                        <a href="#" class="card-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>           
+                </div>
+                <div data-aos="zoom-in" class="col-lg-4 col-md-4 col-sm-4 col-4 wines-card-bottle wines-card-bottle-right">
+                    <img class="wines-card-bottle-img" src="./assets/resources/f06d418e7294a3eb043f380950a7a87e" alt="">
+                </div>
+                <div data-aos="zoom-in" class="col-lg-8 col-md-10 col-sm-12 col-12 wines-card card-three">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 wines-card-bg-container">
+                        <img class="wines-card-bg" src="./assets/resources/d2cc2ee2adb0dc311dfc8d80d52454ef" alt="">
+                    </div> 
+                    <div class="col-lg-8 offset-lg-4 col-md-8 offset-md-4 col-sm-8 offset-sm-4 col-8 offset-4 card-text wines-card-text">
+                        <h3 class="wines-card-text-title">KIÑE</h3>
+                        <p class="wines-card-text-paragraph">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit.
+                                Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis
+                                natoque penatibus et magnis dis</p>
+                        <a href="#" class="card-link"><i class="fas fa-arrow-right"></i></a>
+                    </div> 
+                </div>
+                <div data-aos="zoom-in" class="col-lg-4 col-md-4 col-sm-4 col-4 wines-card-bottle wines-card-bottle-left-two">
+                    <img class="wines-card-bottle-img" src="./assets/resources/b6ac20bfe41250afcd1d7a026fb2e633" alt="">
+                </div>
+                <div data-aos="zoom-in" class="col-lg-8 offset-lg-5 col-md-10 offset-md-6 col-sm-12 col-12 wines-card card-four">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 wines-card-bg-container">
+                        <img class="wines-card-bg wines-card-bg-4" src="./assets/resources/50f111fcaf7264a0a4f8d5dd06ab2eb9" alt="">
+                    </div>  
+                    <div class="col-lg-8 col-md-8 col-sm-8 offset-sm-1 col-8 offset-1 card-text wines-card-text">
+                        <h3 class="wines-card-text-title">CALICANTO</h3>
+                        <p class="wines-card-text-paragraph">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit.
+                                Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis
+                                natoque penatibus et magnis dis</p>
+                        <a href="#" class="card-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>   
+                </div>
+                <div data-aos="zoom-in" class="col-lg-4 col-md-4 col-sm-4 col-4 wines-card-bottle wines-card-bottle-right-two">
+                    <img class="wines-card-bottle-img-4 " src="./assets/resources/838e8603b9fd8b84b4c3ace6102db78b" alt="">
+                </div>
+            </div>
+            <img class="col-lg-6 col-md-6 bg-two-section-four" src="./assets/resources/b33d43ac9b00699cfe1afdf62c32a31c" alt="">
+        </div>
+        <div class="col-lg-12 col-md-12 section-five-container container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 img-section-five-container">
+                    <img class="img-section-five" src="./assets/resources/94fa1da5f587c4bbed5b51f0b1bf0dfd" alt="">
+                    <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-8 offset-2 card-text wines-card-text">
+                        <label for="">VISITA</label>
+                        <h3 class="wines-card-text-title">LA TIENDA</h3>
+                        <p class="wines-card-text-paragraph">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit.
+                                Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis
+                                natoque penatibus et magnis dis</p>
+                        <a href="#" class="card-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>   
+                </div>
+                <div class="col-lg-6 col-md-6 img-section-five-container">
+                    <img class="img-section-five" src="./assets/resources/06428197a3b78fe6f8454731ed7943a8" alt="">
+                    <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-8 offset-sm-2 col-8 offset-2 card-text wines-card-text">
+                        <label for="">CONOCE NUESTROS TOURS</label>
+                        <h3 class="wines-card-text-title">ENOTURISMO EN MAIPU</h3>
+                        <p class="wines-card-text-paragraph">Lorem ipsum dolor sit amet,
+                                consectetuer adipiscing elit.
+                                Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis
+                                natoque penatibus et magnis dis</p>
+                        <a href="#" class="card-link"><i class="fas fa-arrow-right"></i></a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12 section-footer-container container-fluid">
+            <img class="img-section-five img-footer" src="./assets/resources/0b7c16068c1aaa77483197a95b8c817b" alt="">
+            <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 footer-section-container">
+                <div class="col-md-2">
+                    <ul>
+                        <li class="links-footer">IDENTIDAD</li>
+                        <li class="links-footer">VINOS</li>
+                        <li class="links-footer">RECONOCIMIENTO</li>
+                        <li class="links-footer">ENOTURISMO</li>
+                        <li class="links-footer">TERROIR</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <ul>
+                        <li class="links-footer">NOTICIAS</li>
+                        <li class="links-footer">TIENDA</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <ul>
+                        <li>¿DÓNDE ESTAMOS? <br> Casilla 420, Pirque <br> Santiago de Chile
+                        </li>
+                        <li>TELÉFONO <br>+56 2 2854 7023</li>
+                        <li>E-MAIL <br>
+                            <a class="card-link" href="mailto:contacto@principal.cl">contacto@principal.cl</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <ul>
+                        <li>©2019 Viña El Principal
+                            Todos los derechos reserados</li>
+                        <li class="li-links-rrss">
+                            <a class="links-rrss" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="links-rrss" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="links-rrss" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="links-rrss" href=""><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <ul>
+                        <li><img class="footer-img" src="./assets/resources/9a30ce35f4fb5179cdfd78f58d19f7b9" alt=""></li>
+                        <li><img class="footer-img" src="./assets/resources/462282eaf796a04594e4f978a198d370" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
