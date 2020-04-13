@@ -1,25 +1,34 @@
 body, .card{
     background-color: #252525;
 }
-
 .container-fluid{
     padding: 0%;
 }
-
 .general-container {
     overflow: hidden;
 }
-
 .header-container{
     background-image: url('./assets/resources/013401650b86404208db79c551d4348a');
     padding: 1%;
 }
-.navbar, .opacity-frame{
-    /* background-color: #252525; */
+.navbar, .opacity-frame, .dropdown-menu, .dropdown, .dropdown-toggle, button{
     background-color:rgba(0, 0, 0, 0);
     
 }
-.navbar a{
+.btn-secondary.dropdown-toggle{
+    border: none;
+    outline: none;
+}
+.btn-secondary.dropdown-toggle:focus, .show>.btn-secondary.dropdown-toggle,.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+} 
+.fas{
+    margin-left: 15%;
+}
+.navbar a {
     color: #ffffff;
     font-size: 14px;
     display: flex;
@@ -27,13 +36,25 @@ body, .card{
     align-items: center;
     font-family: 'Rubik', sans-serif;
 }
-
-.links-navbar, .links-rrss, .links-footer:hover{
+.dropdown-menu, .dropdown-toggle{
+    border: none;
+    outline: none;
+}
+.dropdown-toggle::after { 
+    content: none; 
+}
+.links-navbar:hover, .links-rrss:hover, .links-footer:hover, .dropdown-toggle:hover  {
     color: #b66411;
     transition: 1s all ease;
     cursor: pointer;
-}
+    background-color:rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
 
+}
+.dropdown-item{
+    color: #ffffff;
+}
 .carousel{
     height: 300px;
     display: flex;
@@ -41,7 +62,10 @@ body, .card{
     align-items: center;
     text-align: center;
 }
-
+.carousel-item{
+    scroll-snap-type: x mandatory;
+		-webkit-overflow-scrolling: touch;
+}
 .carousel-item, .indicators, .card, .scroll-container {
     color: #ffffff;
 }
@@ -54,8 +78,6 @@ body, .card{
     align-items: flex-end;
     bottom: 43px;
     left: 10%;
-    /* color: #595a5c; */
-    /* opacity: .5; */
 }
 .carousel-indicators span {
     margin-right: 20px;
@@ -67,14 +89,12 @@ body, .card{
     font-weight: bold;
     font-size: 14px;
 }
-
 .img-container img{
     width: 100%;
     height: 482px;
     z-index: 1;
     position: absolute;
 }
-
 .card{
     z-index: 3;
     width: 545px!important;
@@ -82,71 +102,52 @@ body, .card{
     border: none;
     border-radius: 0;
 }
-
 .card-text {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
-
 .opacity-frame{
     position: relative;
     width: 105px;
     height: 105px;
-    /* left: 270px;
-    bottom: 12px; */
-    /* border: 1px solid red; */
     overflow: hidden;
     left: 81%;
     top: 3vh;
-
 }
-
 .opacity-frame-img {
-    /* position: relative;
-    top: -326px;
-    left: -81px;
-    height: 482px; */
-    /* width: 100%; */
     height: 482px;
     z-index: 1;
     position: absolute;
 }
-
-
-
 .scroll-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .card-label, .card-link{
    color: #b66411;
 }
-
 .scroll-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 1%;
+    color: #8e8e8e;
 }
-
 .scroll-bar{
     width: 30px;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: center;
 }
-
 .scroll-span{
-    border-right: 1px solid white;
+    border-right: 1px solid #8e8e8e;
     display: tal;
     display: table;
     height: 100%;
 }
-
 .section-two-container{
     margin-top: 85px;
 }
@@ -154,7 +155,6 @@ body, .card{
 .section-three-container{
     height: 600px;
 }
-
 .bg-container-section-three, .bg-one-section-four, .bg-one-section-four, .bg-two-section-four{
     width: 100%;
     height: auto;
@@ -163,32 +163,26 @@ body, .card{
     height: 450px;
     padding: 0;
 }
-
 .carousel-two{
     position: relative;
     bottom: 210px;
     z-index: 2;
 }
-
 .carousel-cards{
     background-color: #d9d9d9;
     height: 200px;
     margin: 1%;
 }
-
 .inner-two{
     margin-bottom: 5%;
 }
-
 .bottle-img{
     width: 50px;
     height: auto;
 }
-
 .card-body-carousel{
     display: flex;
 }
-
 .laurel-icon{
     width: 50px;
     height: 50px;
@@ -198,7 +192,6 @@ body, .card{
     justify-content: center;
     flex-direction: column;
 }
-
 .title-wine-card, .points-wine-card, .text-wine-card{
     color: #252525;
     font-family: 'Rubik', sans-serif;
@@ -206,15 +199,12 @@ body, .card{
     font-size: 14px;
     text-align: left;
 }
-
 .points-wine-card, .text-wine-card{
     font-size: 10px;
 }
-
 .text-wine-card{
     color: #8e8e8e;
 }
-
 .carousel-title, .section-four-title{
     text-align: center;
     color: white;
@@ -224,7 +214,6 @@ body, .card{
     font-size: 40px;
     font-family: 'Vidaloka', serif;
 }
-
 .section-four-container{
     height: 1300px;
 }
@@ -236,7 +225,6 @@ body, .card{
     flex-wrap: wrap;
     bottom: 410px;
 }
-
 .wines-card{
     padding: 0;
     background: #fff;
@@ -249,9 +237,6 @@ body, .card{
 }
 .card-one{
     z-index: 5;
-    /* background-image: url('./assets/resources/0b7c16068c1aaa77483197a95b8c817b');
-    background-size: 100% 100%; */
-
 }
 .card-two{
     z-index: 4;
@@ -265,9 +250,7 @@ body, .card{
 .card-four{
     z-index: 2;
     bottom: 150px;
-
 }
-
 .wines-card-bg{
     position: relative;
     width: 600px;
@@ -275,7 +258,6 @@ body, .card{
     right: 160px;
     z-index: 1;
 }
-
 .wines-card-bg-4{
     bottom: 250px;
     right: 120px; 
@@ -287,12 +269,10 @@ body, .card{
     bottom: 24px;
     color: #ffffff;
 }
-
 .wines-card-bottle{
     position: absolute;
     z-index: 6;
 }
-
 .wines-card-bottle-left{
     bottom: 855px;
     left: -3px;
@@ -305,39 +285,26 @@ body, .card{
     left: 408px;
     top: 205px;
 }
-/* .wines-card-bottle-left-two{
-    bottom: 147px;
-    left: 15px;
-} */
-
 .wines-card-bottle-right{
     left: 56vw;
     top: 190px;
 }
-
 .wines-card-bottle-right-two{
-    /* top: 1008px;
-    left: 565px; */
     top: 706px;
     left: 56vw;
 }
-
 .wines-card-bottle-img-4{
     height: 380px;
 }
-
 .wines-card-bottle-img{
     height: 395px;
 }
-
 .wines-card-text-title{
     font-size: 20px;
 }
-
 .wines-card-text-paragraph{
     font-size: 14px;
 }
-
 .bg-two-section-four{
     bottom: 750px;
     height: 340px;
@@ -357,34 +324,23 @@ body, .card{
     }
     .card-three{
         z-index: 3;
-        top: 100px;
-    
+        top: 100px;    
     }
     .card-four{
         z-index: 2;
-        top: 150px;
-    
+        top: 150px;    
     }
 }
-
 .section-footer-container{
     height: 250px;
     overflow: hidden;
-    /* background-image: url('./assets/resources/0b7c16068c1aaa77483197a95b8c817b');
-    background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* background-size: 100% 100%; */
-    /* background-color: #252525; */
-
 }
-
 .img-footer{
     bottom: 40px;
     position: relative;
     z-index: 1;
     opacity: .1;
 }
-
 .footer-section-container{
     z-index: 2;
     position: relative;
@@ -392,18 +348,15 @@ body, .card{
     color: #8e8e8e;
     display: flex;
 }
-
 ul, li{
     list-style: none;
     font-size: 12px;
     margin-top: 9px;
 }
-
 .footer-img{
     width: 70px;
     margin: 2%;
 }
-
 .links-rrss{
     color: #ffffff;
     background-color: #252525;
@@ -414,17 +367,14 @@ ul, li{
     justify-content: center;
     align-items: center;
 }
-
 .li-links-rrss{
     display: flex;
     justify-content: space-around;  
     font-size: 18px;
 }
-
 .links-rrss:hover{
     text-decoration: none;
 }
-
 @media (min-width: 320px) and (max-width: 551px) {
     .img-container{
         display: none;
@@ -461,10 +411,7 @@ ul, li{
     .wines-card-text{
         top: 81px;
     }
-
-
 }
-
 @media (min-width: 552px) and (max-width: 767px) {
     .section-four-container{
         height: 1504px;
@@ -498,10 +445,8 @@ ul, li{
     }
     .wines-card-bottle-right-two {
         top: 1010px;
-    }
-    
+    }    
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
     .opacity-frame{
         top: -10vh;
@@ -511,20 +456,7 @@ ul, li{
         right: -64vw;
         bottom: -52%;
     }
-    /* .wines-card-bottle-right, .wines-card-bottle-right-two{
-        left: 73vw;
-    } */
-    /* .wines-card-bottle-right{
-        top: 305px;
-    }
-    .wines-card-bottle-left-two {
-        bottom: 150px;
-    }
-    .wines-card-bottle-right-two {
-        top: 1010px;
-    }     */
 }
-
 @media (min-width: 992px) and (max-width: 1032px) {
     .opacity-frame{
         left: 111%;
@@ -535,7 +467,6 @@ ul, li{
         left: -11vw;
     } 
 }
-
 @media (min-width: 1033px) and (max-width: 1199px){
     .wines-card-bg{
         right: 2vw;
@@ -547,10 +478,8 @@ ul, li{
     .opacity-frame-img{
         bottom: -53%;
         left: -9vw;
-    }
-  
+    }  
 }
-
 @media (min-width: 1200px){
     .wines-card-bg{
         right: 2vw;
@@ -564,12 +493,3 @@ ul, li{
         left: -7vw;
     } 
 }
-
-
-
-/* .section-three-container{
-    background-image: url()
-}
-.vine-name-container{
-
-} */
