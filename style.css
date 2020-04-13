@@ -435,9 +435,10 @@ ul, li{
     .footer-img{
         display: none;
     }
-    /* .footer-section-container{
-        top: 240px;
-    } */
+    .links-rrss{
+        padding: 5px;
+        width: 30px;
+    }
 }
 @media (min-width: 552px) and (max-width: 767px) {
     .section-four-container{
