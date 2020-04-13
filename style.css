@@ -358,8 +358,9 @@ ul, li{
     list-style: none;
     font-size: 12px;
     margin-top: 9px;
+    padding: 0;
 }
-.footer-img{
+.footer-img, .footer-img-mobile{
     width: 70px;
     margin: 2%;
 }
@@ -378,8 +379,14 @@ ul, li{
     justify-content: space-around;  
     font-size: 18px;
 }
+.footer-img-mobile-container{
+    display: none;
+}
 .links-rrss:hover{
     text-decoration: none;
+}
+.links-footer-container{
+    padding-right: 5px;
 }
 @media (min-width: 320px) and (max-width: 551px) {
     .img-container{
@@ -417,6 +424,20 @@ ul, li{
     .wines-card-text{
         top: 35px;
     }
+    ul, li {
+        font-size: 10px;
+    }
+    .footer-img-mobile-container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .footer-img{
+        display: none;
+    }
+    /* .footer-section-container{
+        top: 240px;
+    } */
 }
 @media (min-width: 552px) and (max-width: 767px) {
     .section-four-container{
