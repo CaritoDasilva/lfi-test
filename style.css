@@ -441,6 +441,9 @@ ul, li{
         height: 10px;
         border-radius: 100%;
     }
+    .card-text{
+        padding-right: 20%;
+    }
 }
 @media (min-width: 552px) and (max-width: 767px) {
     .indicators-mobile, .carousel-indicators span{
