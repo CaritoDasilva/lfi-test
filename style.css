@@ -526,11 +526,11 @@ ul, li{
         right: 2vw;
     }
     .opacity-frame{
-        top: -6vw;
-        left: 95%;
+        top: -17%;
+        left: 109%;;
     }
     .opacity-frame-img{
-        bottom: -62%;
-        left: -7vw;
+        bottom: -53%;
+        left: -11vw;
     } 
 }
