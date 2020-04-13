@@ -127,6 +127,10 @@ body, .card{
 }
 .card-label, .card-link{
    color: #b66411;
+   font-size: 20px;
+}
+.fa-arrow-right{
+    margin-left: 0;
 }
 .scroll-container{
     display: flex;
@@ -393,7 +397,7 @@ ul, li{
         right: 94px;
     }
     .wines-card-bottle-right, .wines-card-bottle-right-two{
-        left: 73vw;
+        left: 70vw;
     }
     .wines-card-bottle-right{
         top: 305px;
@@ -409,7 +413,7 @@ ul, li{
         height: 1500px;
     }
     .wines-card-text{
-        top: 81px;
+        top: 35px;
     }
 }
 @media (min-width: 552px) and (max-width: 767px) {
@@ -432,10 +436,10 @@ ul, li{
         width: 767px;
     } 
     .wines-card-text{
-        top: 81px;
+        top: 35px;
     }
     .wines-card-bottle-right, .wines-card-bottle-right-two{
-        left: 73vw;
+        left: 70vw;
     }
     .wines-card-bottle-right{
         top: 305px;
